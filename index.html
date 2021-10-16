@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./assets/css/repossive.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="header">
+        <ul id="nav">
+            <li><a href="#" class="nav-link">HOME</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#menu" class="nav-link">MENU</a></li>
+            <li><a href="#where" class="nav-link">WHERE</a></li>
+        </ul>
+    </div>
+    <div id="slider">
+        <h1 class="slider-name">the <br>
+        Cafe</h1>
+        <p class="slider-time">Open from 6am to 5pm</p>
+        <p class="slider-adress">15 Adr street, 5015</p>
+        <img class="silder-img" src="./assets/images/coffeehouse.jpg" alt="">
+    </div>
+    <div id="about">
+       <div class="form">
+        <h2>ABOUT THE CAFE</h2>
+        <p class="about-content">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <br>
+            <br>
+
+            In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+        <div class="about-quote">
+            <p class="about-qoute-infor">
+                "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.
+            </p>
+            <br><br>
+            <p class="about-qoute-name">
+                Chef, Coffeeist and Owner: Liam Brown
+            </p>
+            
+            
+        </div>
+        <img src="./assets/images/coffeeshop.jpg" alt="" class="about-img">
+        <div class="about-end">  
+            <p class="about-time">Opening hours: <span> everyday from 6am to 5pm.</span></p>
+            <p class="about-adress">Address: <span>15 Adr street, 5015, NY</span></p>
+         </div>
+        </div>
+    </div>
+    <div id="menu">
+        <div class="form">
+            <h2>MENU</h2>
+            <div class="menu-head">
+                <a href="javascript:void(0)" class="menu-head-link" onclick="openMenu(event, 'Eat');" id="myLink">
+                <div class="menu-head-btn">Eat</div>
+                </a>
+                <a href="javascript:void(0)" class="menu-head-link" onclick="openMenu(event, 'Drink');">
+                <div class="menu-head-btn">Drink</div>
+                </a>
+            </div>
+            <div id="Eat" class="menu-body menu-js">
+                <div class="food">
+                    <h3>Bread Basket</h3>
+                    <span>Assortment of fresh baked fruit breads and muffins 5.50</span>
+                </div>
+                <div class="food">
+                    <h3>Honey Almond Granola with Fruits</h3>
+                    <span>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</span>
+                </div>
+                <div class="food">
+                    <h3>Belgian Waffle</h3>
+                    <span>Vanilla flavored batter with malted flour 7.50</span>
+                </div>
+                <div class="food">
+                    <h3>Scrambled eggs</h3>
+                    <span>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</span>
+                </div>
+                <div class="food">
+                    <h3>Blueberry Pancakes</h3>
+                    <span>With syrup, butter and lots of berries 8.50</span>
+                </div>
+            
+            </div>
+            <div id="Drink" class="menu-body menu-js">
+                <div class="food">
+                    <h3>Coffee</h3>
+                    <span>Regular coffee 2.50</span>
+                </div>
+                <div class="food">
+                    <h3>Chocolato</h3>
+                    <span>Chocolate espresso with milk 4.50</span>
+                </div>
+                <div class="food">
+                    <h3>Corretto</h3>
+                    <span>Whiskey and coffee 5.00</span>
+                </div>
+                <div class="food">
+                    <h3>Iced tea</h3>
+                    <span>Hot tea, except not hot 3.00</span>
+                </div>
+                <div class="food">
+                    <h3>Soda</h3>
+                    <span>Coke, Sprite, Fanta, etc. 2.50</span>
+                </div>
+            
+            </div>
+            <img src="./assets/images/coffeehouse2.jpg" alt="" class="menu-img">
+        </div>
+    </div>
+    <div id="where">
+        <form action="/action_page.php" target="_blank" class="form">
+            <h2>WHERE TO FIND US</h2>
+            <span>Find us at some address at some place.</span>
+            <br>
+            <img src="./assets/images/map.jpg" alt="" class="where-img">
+            <br>
+            <span>FYI!</span>
+            <span>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</span>
+            <br>
+            <span>Reserve a table, ask for today's special or just send us a message:</span>
+          
+            <div class="form-message">
+                <p><input type="text" placeholder="Name" class="where-input" required name="Name"></p>
+                <p><input type="number" placeholder="How many people" class="where-input" required name="People"></p>
+                <p><input type="datetime-local" placeholder="Date and time" required name="Date and time" value="2021-10-13T20:00" class="where-input"></p>
+                <p><input type="text" placeholder="Message" class="where-input" required name="Message"></p>
+            </div>
+            <button class="btn-message" type="submit">SEND MESSAGE</button>
+        </form>
+    </div>
+    <div id="footer">
+        <span> 
+            Powered by <a href="https://www.w3schools.com/w3css/tryw3css_templates_cafe.htm">w3.css</a>
+        </span>
+    </div>
+    <script>
+        // Tabbed Menu
+        
+        function openMenu(evt, menuName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("menu-js");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("menu-head-btn");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace("menu-head-btn-click", "");
+          }
+          document.getElementById(menuName).style.display = "block";
+          evt.currentTarget.firstElementChild.className += " menu-head-btn-click";
+          
+        }
+        document.getElementById("myLink").click();
+    </script>
+</body>
+</html>

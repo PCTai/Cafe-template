@@ -1,0 +1,39 @@
+@media (max-width:450px){
+
+    .slider-name{
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .slider-adress,.slider-time{
+        font-size: 12px;
+    }
+    .silder-img{
+        height: 400px;
+    }
+    .nav-link{
+        padding: 12px 4px;
+      
+        font-size: 12px;
+    }
+    .form{
+        width: 100%;
+    }
+    .btn-message{
+        max-width: 100%;
+    }
+    
+
+
+}
+@media (max-width:768px) and (min-width:451px){
+    .form{
+        width: 100%;
+    }
+    .slider-name{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .silder-img{
+        height: 400px;
+    }
+}
