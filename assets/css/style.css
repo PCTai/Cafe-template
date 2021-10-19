@@ -40,7 +40,7 @@
 .bgimg{
     background-position: center;
     background-size: cover;
-    background-image: url(/assets/images/coffeehouse.jpg);
+    background-image: url(../images/coffeehouse.jpg);
     min-height: 550px;
 }
 .w3-greyscale-min, .w3-grayscale-min {
