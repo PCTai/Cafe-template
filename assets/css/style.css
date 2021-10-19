@@ -37,9 +37,14 @@
 }
 
 /* slider */
-#slider{
-    position: relative;
-    width: 100%;
+.bgimg{
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/images/coffeehouse.jpg);
+    min-height: 550px;
+}
+.w3-greyscale-min, .w3-grayscale-min {
+    filter: grayscale(50%);
 }
 .silder-img{
 
@@ -75,6 +80,7 @@
 }
 /* about */
 #about{
+    
     width: 100%;
     
 }
@@ -97,6 +103,7 @@
     margin-bottom: 40px;
 }
 .about-content{
+    text-align: justify;
     line-height: 28px;
     margin-bottom: 20px;
 }
